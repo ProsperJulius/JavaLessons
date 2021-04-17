@@ -34,5 +34,10 @@ private TreeNode addRecursion(TreeNode current, int value){
         tree.add(10);
 
     }
+    public boolean isBalanced(TreeNode treeNode){
+    if(treeNode==null) return false;
+    if(treeNode.left == null || treeNode.right ==null) return false;
+   return false;
+    }
 
 }
